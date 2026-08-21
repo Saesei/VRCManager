@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:;">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VRChat Fallback Manager</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="container">
+  <header>
+    <h1>VRChat Fallback Manager</h1>
+    <p>Select a VRChat avatar to use as your fallback.</p>
+  </header>
+
+  <section class="card">
+    <h2>VRChat authentication</h2>
+    <label for="auth">Auth cookie</label>
+    <input id="auth" type="password" autocomplete="off" placeholder="Paste your VRChat auth cookie">
+    <p class="warning">The cookie is sensitive. This app sends it directly to VRChat and does not send it to a project server. Do not share it.</p>
+    <button id="verify">Verify account</button>
+    <span id="accountStatus" class="status"></span>
+  </section>
+
+  <section class="card">
+    <h2>Fallback avatar</h2>
+    <label for="avatarSelect">Preset avatar</label>
+    <select id="avatarSelect"></select>
+
+    <div id="avatarPreview" class="avatar-preview">
+      <div class="image-wrap"><img id="avatarImage" alt=""></div>
+      <div class="avatar-info">
+        <div id="avatarName" class="avatar-name">Select an avatar</div>
+        <div id="avatarAuthor" class="avatar-author"></div>
+        <code id="selectedId">—</code>
+      </div>
+    </div>
+
+    <div class="or">or</div>
+    <label for="customId">Custom avatar ID</label>
+    <input id="customId" placeholder="avtr_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx">
+
+    <button id="selectFallback" class="primary">Select as fallback</button>
+    <button id="checkCurrent">Check current fallback</button>
+    <div id="result" class="result"></div>
+  </section>
+
+  <section class="card">
+    <h2>Current fallback</h2>
+    <div id="currentFallback" class="current">
+      <div class="image-wrap"><img id="currentImage" alt=""></div>
+      <div class="avatar-info">
+        <div id="currentName" class="avatar-name">Not checked yet</div>
+        <div id="currentAuthor" class="avatar-author"></div>
+        <code id="currentId">—</code>
+      </div>
+    </div>
+  </section>
+
+  <footer><span>VRChat Fallback Manager</span><span>v0.3.0</span></footer>
+</main>
+<script src="renderer.js"></script>
+</body>
+</html>

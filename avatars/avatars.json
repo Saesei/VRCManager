@@ -1,0 +1,626 @@
+[
+  {
+    "avatarName": "Fsh the Fish",
+    "avatarId": "avtr_f5b56d2a-8046-4c65-a943-301abbb0594f",
+    "authorName": "Duskstar Shine",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_ffa6e934-1c6b-4723-a6ad-51f4c654f2fb/2/256"
+  },
+  {
+    "avatarName": "Fishy Bon",
+    "avatarId": "avtr_3bed0a57-4726-4d5e-917b-b572f59cc03e",
+    "authorName": "babybonito",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_9e696d61-64f5-4c8e-a068-ff66cbbab2e3/3/256"
+  },
+  {
+    "avatarName": "Sand sculpture protogen",
+    "avatarId": "avtr_41357a9c-b1c8-43ef-a34f-5a5ddaaa29c8",
+    "authorName": "tuwube",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_a97d5d9b-52da-45f4-8d5a-80b949d5531d/2/256"
+  },
+  {
+    "avatarName": "Sylias Space Bunny",
+    "avatarId": "avtr_4aafd3c9-9842-400b-8a7a-d6b460d77866",
+    "authorName": "Rainhet",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_a9ce8891-f057-40a4-94e5-695b5795db2b/2/256"
+  },
+  {
+    "avatarName": "Cyberwolf",
+    "avatarId": "avtr_efe54bff-0836-473b-928c-a19db29f5908",
+    "authorName": "Gambit",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_a4ea8bdb-8b17-4dd0-a2a9-c35deaca575f/2/256"
+  },
+  {
+    "avatarName": "Gave The Summerseeker",
+    "avatarId": "avtr_441ab5fc-4b29-4b17-bd93-aded718ff86f",
+    "authorName": "GummyFishMoon",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_f087cc2b-b7b5-482a-b377-78dbc74045e4/1/256"
+  },
+  {
+    "avatarName": "AMP",
+    "avatarId": "avtr_d8afe1b3-deca-4ac5-b9f8-3392979c90dd",
+    "authorName": "MR_em",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_3911fb4d-e497-4718-8458-e4627a19e960/2/256"
+  },
+  {
+    "avatarName": "Handie",
+    "avatarId": "avtr_1bd42f3d-4bb8-4fa3-9f71-dcbf0d8f409c",
+    "authorName": "WuWanan",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_fe593bc3-521f-4d0f-8fac-8225f17dbfc5/1/256"
+  },
+  {
+    "avatarName": "Lunar Lizzy",
+    "avatarId": "avtr_7d899f19-e1ed-4011-bbac-339e7ea1c233",
+    "authorName": "it's moe",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_9af70508-2da4-4322-980e-4b690df3bfdc/7/256"
+  },
+  {
+    "avatarName": "Robodog",
+    "avatarId": "avtr_be1abe85-137e-4053-897d-e9de4f4936e6",
+    "authorName": "Bob_irl",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_367b06e0-3baa-4670-8195-8284733815c9/6/256"
+  },
+  {
+    "avatarName": "VRCat Animatronic",
+    "avatarId": "avtr_a7d31a84-1cd4-48ca-b7fa-9ca9e9c9a455",
+    "authorName": "Slorg",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_7426b70f-7097-458b-a3b9-c15a4d9a7988/2/256"
+  },
+  {
+    "avatarName": "Nana The Clownfish",
+    "avatarId": "avtr_fad6d7f3-6db0-44ff-b6eb-6cd74922248d",
+    "authorName": "ChiliCharm",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_edd9e217-7065-48c1-a813-72f6b67da48d/2/256"
+  },
+  {
+    "avatarName": "Skylar",
+    "avatarId": "avtr_4768f0aa-2879-484f-b8f2-e818d53a3f44",
+    "authorName": "Pylon?",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_0becb2b9-efbe-445a-bf3f-7d497ed6cee7/3/256"
+  },
+  {
+    "avatarName": "Samy the Deep Sea Mermaid",
+    "avatarId": "avtr_21542075-8022-491a-b55a-578706080180",
+    "authorName": "GabSith",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_ddc75c3b-d3d1-4631-81e2-405b7ced0e63/5/256"
+  },
+  {
+    "avatarName": "Abyss",
+    "avatarId": "avtr_f9857ea4-ecd6-4912-99a6-54e1ae515be6",
+    "authorName": "Chá Math",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_585862da-ce48-4edc-b768-000fcd31d5b6/1/256"
+  },
+  {
+    "avatarName": "Alex",
+    "avatarId": "avtr_22dcb538-be74-4836-aaf3-33ed3ba3913e",
+    "authorName": "WalGesicht",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_d918b30a-7766-4f3d-8842-ea1a28281b08/2/256"
+  },
+  {
+    "avatarName": "Astral Magester",
+    "avatarId": "avtr_9711b9bc-157b-45c0-96c3-a3af76e49b98",
+    "authorName": "Crazium",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_9ad6196e-5ce4-4df0-bf37-c090279ebf23/4/256"
+  },
+  {
+    "avatarName": "Kori",
+    "avatarId": "avtr_824652a6-07eb-4a07-8cd0-092df074bd1c",
+    "authorName": "Fizzial",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_b284aa24-aa0b-4e83-bbbe-c102ca75f75d/2/256"
+  },
+  {
+    "avatarName": "Seeafoam Soft-Shell",
+    "avatarId": "avtr_17304d15-7ebc-4acd-8087-33d1be54a16a",
+    "authorName": "Snapdragons",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_9eab9d07-f63d-4e87-9916-dcb2acb66776/2/256"
+  },
+  {
+    "avatarName": "MelonBun",
+    "avatarId": "avtr_cf8e0137-cc4b-4c7f-9a3d-a2935769ad57",
+    "authorName": "ChiliCharm",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_3d3d19fc-8612-42c2-aad3-c852d8f65cc9/2/256"
+  },
+  {
+    "avatarName": "Asteria",
+    "avatarId": "avtr_418db675-e552-4b83-a33e-bddce7ead10b",
+    "authorName": "Raujinn",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_b8eef4d1-6b91-4c31-b830-c2daf082fff1/3/256"
+  },
+  {
+    "avatarName": "BucketShark",
+    "avatarId": "avtr_94fb1ee7-4948-4751-b674-a37177a4b79a",
+    "authorName": "Skalbaggen",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_58e6da7c-7e02-4918-946d-68f6f3573843/2/256"
+  },
+  {
+    "avatarName": "Duke Bastion",
+    "avatarId": "avtr_3f1fe0bd-b9ee-456b-a676-5a1f2c27650c",
+    "authorName": "Clan-Universe",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_16292f4b-3a52-46f7-b22c-6acc48b46e2b/2/256"
+  },
+  {
+    "avatarName": "Cube Kitty",
+    "avatarId": "avtr_aa6c3da4-30b4-4b13-a5b5-93dae3eb673c",
+    "authorName": "SylviaCrisp",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_51a945cb-abe9-4e10-aad6-4e16772cb35b/2/256"
+  },
+  {
+    "avatarName": "Darcy",
+    "avatarId": "avtr_d9eae9f3-6a1f-4be4-b939-53320f2e1454",
+    "authorName": "Jorror",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_351c69ca-fc7b-4345-ae08-26b7cf7b3b1b/9/256"
+  },
+  {
+    "avatarName": "MakeAvatar Chibi Female （SD Anime style）",
+    "avatarId": "avtr_623effc8-e170-4f01-b947-1aa19996e65a",
+    "authorName": "Gugenka",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_95f6aa70-eb70-40b7-9ec6-e70316e4baab/1/256"
+  },
+  {
+    "avatarName": "Cooking Campfire",
+    "avatarId": "avtr_cadb00d5-d93f-4414-8a50-f9344b50091d",
+    "authorName": "peepymou",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_0a155435-3c65-474a-b6f5-c1062974e3e3/6/256"
+  },
+  {
+    "avatarName": "Atena",
+    "avatarId": "avtr_a2b4025f-3eab-45dd-92a7-4307a9f3db3e",
+    "authorName": "GabSith",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_55f6084f-8a39-448b-8f48-b695607138c8/6/256"
+  },
+  {
+    "avatarName": "Trio",
+    "avatarId": "avtr_e48b87cb-4e28-49c3-9209-b7af2c73bc87",
+    "authorName": "はにょえ",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_a84b652a-9ff7-4e2e-ba43-3b8583398a4d/2/256"
+  },
+  {
+    "avatarName": "Mushy",
+    "avatarId": "avtr_a0e9acc2-7ebb-4af2-a946-f7ab23b896fb",
+    "authorName": "Luluru",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_eb294422-3857-4979-b98c-6d962f20dd2e/1/256"
+  },
+  {
+    "avatarName": "Vrchat Handheld Device",
+    "avatarId": "avtr_d240683c-1b4f-4b36-8436-b6e1988c8981",
+    "authorName": "Seasickdrip",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_b615d2bc-84d5-492c-a830-2277a8c366cc/2/256"
+  },
+  {
+    "avatarName": "Xperiment",
+    "avatarId": "avtr_7f56f978-1fc0-42fb-bb37-635738ceee92",
+    "authorName": "SpeedBuiz",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_f0dc3cb7-9238-4124-925d-1c12bebcf549/5/256"
+  },
+  {
+    "avatarName": "A-Cat",
+    "avatarId": "avtr_8bfc8674-1c72-4f38-9c46-3c8a5d3cfc10",
+    "authorName": "Asio_JPN",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_95eb41e9-d801-46eb-b56f-a5fbdaea7faa/3/256"
+  },
+  {
+    "avatarName": "Alex",
+    "avatarId": "avtr_50a5e078-dfd1-4d71-bba9-d0c8f3ad55a5",
+    "authorName": "Marino",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_035e7e1c-b436-4a71-b8f9-2bf9f488c913/1/256"
+  },
+  {
+    "avatarName": "Meownyrn Catbot Public Jam",
+    "avatarId": "avtr_a77c1302-0813-4d5b-a07e-aa75b52ab5dd",
+    "authorName": "FrostKittyPaw",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_04dcb9f5-7090-4340-a99e-d854c249864a/1/256"
+  },
+  {
+    "avatarName": "Jimmy Smooth",
+    "avatarId": "avtr_6d0917dd-6834-41e2-acbd-7bfe468e87e0",
+    "authorName": "ShadowKittay",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_d77146d7-b10f-4f2b-855e-b9d7f492e2ad/1/256"
+  },
+  {
+    "avatarName": "UFOcto",
+    "avatarId": "avtr_de7e05ff-f134-4bb8-a581-de8af2a184ed",
+    "authorName": "Snapdragons",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_9cc71a23-580f-4327-b464-e8b6350c2db8/3/256"
+  },
+  {
+    "avatarName": "Little Griffin",
+    "avatarId": "avtr_d28ff481-5d01-45ce-ae14-54c61ce6892e",
+    "authorName": "Estefanoida",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_86ed900e-2193-40c8-8682-4854dd94d7d6/3/256"
+  },
+  {
+    "avatarName": "MakeAvatar Chibi Male （SD Anime style）",
+    "avatarId": "avtr_0c450467-fb1e-4bbc-88e4-8676144347cb",
+    "authorName": "Gugenka",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_e69a6ef4-ef49-485b-b73c-edc5c79f6b78/1/256"
+  },
+  {
+    "avatarName": "inch the fisherworm",
+    "avatarId": "avtr_07092c96-84a7-461e-a04f-3bd8f081cc3c",
+    "authorName": "blueasis",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_dc015aaa-cba8-4541-be4f-46c441927077/4/256"
+  },
+  {
+    "avatarName": "Carney Public",
+    "avatarId": "avtr_d863c7ed-df49-4f05-86b2-ef8fd4273d51",
+    "authorName": "Angelic Crone",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_d962e836-9cc2-4087-8cbf-b46b0b950678/2/256"
+  },
+  {
+    "avatarName": "inch the fisherworm",
+    "avatarId": "avtr_07092c96-84a7-461e-a04f-3bd8f081cc3c",
+    "authorName": "blueasis",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_dc015aaa-cba8-4541-be4f-46c441927077/4/256"
+  },
+  {
+    "avatarName": "Slippy the Sailor （Summer Jam 2025）",
+    "avatarId": "avtr_2ec1bb5e-8170-4228-966d-b89275f62466",
+    "authorName": "Jackal026",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_abfff14d-2db1-45a5-9ead-b7559c751a24/2/256"
+  },
+  {
+    "avatarName": "per-loo-per-woo",
+    "avatarId": "avtr_a73af51f-332a-42eb-94e0-1c1eaf2d4640",
+    "authorName": "yuuya_lo",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_86410c24-d6d2-4f75-adf6-04bd8268ed04/2/256"
+  },
+  {
+    "avatarName": "Sir Charletagne",
+    "avatarId": "avtr_f10175de-1484-428d-b734-4333c3df3dec",
+    "authorName": "Octuplex",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_53785869-69d4-45b2-aa60-736e6112a94d/5/256"
+  },
+  {
+    "avatarName": "Funkmaster Jman",
+    "avatarId": "avtr_bade7931-7d47-473f-87fb-6d4db735de09",
+    "authorName": "Raujinn",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_cea8e5de-02d8-4ab8-876e-3ed75b5e4c8a/5/256"
+  },
+  {
+    "avatarName": "Clio ＆ Herb",
+    "avatarId": "avtr_16abee68-db31-431b-8536-386eed64408f",
+    "authorName": "blueasis",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_4da215be-696f-4ba7-b375-9fe3b5fcc065/1/256"
+  },
+  {
+    "avatarName": "Flint Burntwood",
+    "avatarId": "avtr_8c9c9ef4-e65d-4f8c-93ed-2458727d9ce7",
+    "authorName": "Sylveon77",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_6805bd70-2661-4702-a7da-1340e95cd91c/2/256"
+  },
+  {
+    "avatarName": "sania3․0",
+    "avatarId": "avtr_5f2b783e-dd6c-490b-b52d-fe3240fc5f60",
+    "authorName": "alt_tamaki",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_f122d2d9-a8d9-4e15-b48c-8c5531666979/2/256"
+  },
+  {
+    "avatarName": "Bubba Clubbins",
+    "avatarId": "avtr_64874bb6-4872-4f07-ba18-0fdcd267f0ae",
+    "authorName": "Cramble",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_a229132d-031f-489a-b375-54fdf7ee26a6/2/256"
+  },
+  {
+    "avatarName": "Bestboi Chibi Public",
+    "avatarId": "avtr_8385a57a-af69-4193-9db1-fc42f5a5ef6e",
+    "authorName": "Bestbois",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_13cbfbf0-e068-41ac-a054-bb7a6fb48ab6/2/256"
+  },
+  {
+    "avatarName": "Beach Ball Boy",
+    "avatarId": "avtr_7b05753b-f956-4df7-b2a9-d603df8c1a22",
+    "authorName": "Chimyreal",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_0c5f82fa-889a-43e2-933f-a6bbbfa4ea33/2/256"
+  },
+  {
+    "avatarName": "RURILALA",
+    "avatarId": "avtr_0eb0aeff-5a47-4c01-86e7-943cfcc1e8b5",
+    "authorName": "aku955",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_44ded11d-6f93-4b47-abc7-53cf833fe6f7/2/256"
+  },
+  {
+    "avatarName": "Chibi Space Bun",
+    "avatarId": "avtr_b4f3622e-4fdb-4687-b175-6c5109dfbd34",
+    "authorName": "E L I Z A",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_3fe05593-85c7-4dce-affa-17c66d495981/5/256"
+  },
+  {
+    "avatarName": "Plato's Demon",
+    "avatarId": "avtr_b7ab0ce2-6294-4ead-bafe-b6c7b6fb764b",
+    "authorName": "Mr Mycelium",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_bbc21a2c-d8b2-4e9f-a84e-d74502506484/1/256"
+  },
+  {
+    "avatarName": "Afterlife Guard",
+    "avatarId": "avtr_5b656337-7f55-4b24-b828-1cf84ffc763a",
+    "authorName": "MR_em",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_854d0a07-61d9-4a42-9696-20414852beca/3/256"
+  },
+  {
+    "avatarName": "The Awtter - VRChat",
+    "avatarId": "avtr_d474fbff-1cfa-47c0-be52-cdf688a936d4",
+    "authorName": "Shade the Bat",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_7bd95d80-4359-4eeb-b2a0-e8d699ba00e7/5/256"
+  },
+  {
+    "avatarName": "Bhird",
+    "avatarId": "avtr_a0012827-9ef5-436b-8d0b-02363afc5777",
+    "authorName": "Melting3D",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_db7fbc02-e836-4336-87b6-944482b17c8a/3/256"
+  },
+  {
+    "avatarName": "Finny",
+    "avatarId": "avtr_8e5d1fe0-44b3-4f7f-abc4-ec4b62288be0",
+    "authorName": "Livdays",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_c2cfcea4-b342-42cf-bb47-3c862a79b8f3/2/256"
+  },
+  {
+    "avatarName": "MakeAvatar Female （Anime style）",
+    "avatarId": "avtr_5f88d210-55e6-4d34-9f50-a11bd13c691a",
+    "authorName": "Gugenka",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_3655795d-3e8c-41ba-8048-12295204cd52/1/256"
+  },
+  {
+    "avatarName": "Sundae the Ice Creamancer",
+    "avatarId": "avtr_f4eaf381-7247-4d05-8737-336deaf1a670",
+    "authorName": "Nae the Loud",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_02d34a2e-4ab3-4bb4-9034-6400d408186f/2/256"
+  },
+  {
+    "avatarName": "Pupbot",
+    "avatarId": "avtr_7d735b2d-31d1-41aa-9d35-f9683bb0a8ce",
+    "authorName": "Widget365",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_be882552-a1b4-4f78-9ee3-35995d6166f0/2/256"
+  },
+  {
+    "avatarName": "MakeAvatar Female （Anime style）",
+    "avatarId": "avtr_5f88d210-55e6-4d34-9f50-a11bd13c691a",
+    "authorName": "Gugenka",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_3655795d-3e8c-41ba-8048-12295204cd52/1/256"
+  },
+  {
+    "avatarName": "Teenage Boomer The Dino",
+    "avatarId": "avtr_7af25ae5-fcbe-41d8-b1ae-315812a0d40a",
+    "authorName": "Dangleberry",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_f03c8e87-6bd2-4c72-ac42-5d8dd5c5f8d2/3/256"
+  },
+  {
+    "avatarName": "Olga",
+    "avatarId": "avtr_4309bcf2-71de-4412-b035-4d617bccdb87",
+    "authorName": "Ethosaur",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_0cce7a0d-6485-46c8-bac2-08f205c9af7f/1/256"
+  },
+  {
+    "avatarName": "Axelottie",
+    "avatarId": "avtr_f2731cd9-c9a9-40fb-b915-056eef6d27cf",
+    "authorName": "Nae the Loud",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_ebb50ad6-285a-4ec2-ad26-b9fa09707e62/2/256"
+  },
+  {
+    "avatarName": "Swan Bear",
+    "avatarId": "avtr_eabf2528-008c-4bb8-b785-bf085e0eb0b5",
+    "authorName": "dawnofender",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_c611ec34-472b-471e-8999-9aa0c01431d7/6/256"
+  },
+  {
+    "avatarName": "Robocoon",
+    "avatarId": "avtr_4fc72a98-9f44-4354-bc9a-e2abf53d6661",
+    "authorName": "ぶろ⁄blo",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_ba79a378-5a9f-49b3-b6ca-9b110a846069/2/256"
+  },
+  {
+    "avatarName": "Clown",
+    "avatarId": "avtr_ad3617cd-a8b5-4dab-a2f2-66937f7721a2",
+    "authorName": "Riceballer3D",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_cb9e8951-30cb-4d3d-96e1-13ed67a79330/2/256"
+  },
+  {
+    "avatarName": "The wool wizard",
+    "avatarId": "avtr_e07da1ed-67dc-4e36-b8bd-9d49b9c7fb6f",
+    "authorName": "some random peep",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_def7bfa2-fddc-4a9a-86ce-168f198defad/2/256"
+  },
+  {
+    "avatarName": "CZ",
+    "avatarId": "avtr_8991766d-c760-4871-9a4d-b45a58e8ae17",
+    "authorName": "asm0x0_あすみ",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_7445f3e5-d539-493d-a90a-8fd5f8333baf/2/256"
+  },
+  {
+    "avatarName": "PC-droid",
+    "avatarId": "avtr_da64d92d-03f2-4f3f-bdd5-f587752f4b82",
+    "authorName": "kittoki",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_703b1df0-7fa2-4492-b315-d7d1a5078592/3/256"
+  },
+  {
+    "avatarName": "Alien Rabbit",
+    "avatarId": "avtr_8c2625bb-9234-40d8-92f2-e7da98fb556b",
+    "authorName": "BEBE CARROT",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_85a0c25e-c66b-46f0-ac99-7a7dfbd54e35/6/256"
+  },
+  {
+    "avatarName": "YADOKA_OOAME",
+    "avatarId": "avtr_07917a03-5e0b-48e9-b041-e94086bc658f",
+    "authorName": "さかずき ないぎ",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_070e12e3-dc72-4b62-a99d-6d6f7b9e58b5/2/256"
+  },
+  {
+    "avatarName": "Yukie",
+    "avatarId": "avtr_6f1e8cc9-1c12-490f-8a18-55e6e57e5ad7",
+    "authorName": "Temmie Dola",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_47ddb57c-5088-41c9-9cfc-609c18eb3baf/3/256"
+  },
+  {
+    "avatarName": "Hudson the Wizard",
+    "avatarId": "avtr_14631b38-e1ed-44c3-b2c6-0d8d78b8f195",
+    "authorName": "Charoody",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_a6f31956-0dfa-4a82-9db4-6256697a4128/2/256"
+  },
+  {
+    "avatarName": "Rune",
+    "avatarId": "avtr_0e84c5f0-3501-4ba6-869a-ca5a9095a979",
+    "authorName": "-Darian-",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_28b83a83-93dd-4664-9db6-a2309e76859f/2/256"
+  },
+  {
+    "avatarName": "Tigerbee",
+    "avatarId": "avtr_1579c4b6-d647-4ded-a5c2-b78b9c6ea686",
+    "authorName": "Tokyozilla",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_6de4cb69-f8bb-49a6-bebb-d5c08efc3ffb/1/256"
+  },
+  {
+    "avatarName": "Abandoned Computer",
+    "avatarId": "avtr_ad5ae60a-e526-4b84-8aa2-1cf2fd404482",
+    "authorName": "barkScript",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_9039f83b-3b01-4e1f-a233-57e938a54944/2/256"
+  },
+  {
+    "avatarName": "Nimbus",
+    "avatarId": "avtr_d65e63ae-b121-4a73-bf78-6aa54feb9fa5",
+    "authorName": "Inevanable",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_0222a2eb-23b2-4eed-9277-ae0761cec611/5/256"
+  },
+  {
+    "avatarName": "［Protogen］Kuro",
+    "avatarId": "avtr_faf40a9f-ce39-4ff2-a069-223797ba11af",
+    "authorName": "Furriest",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_6aa5d4b5-c0d9-4284-8e3d-e309b12b9ed4/7/256"
+  },
+  {
+    "avatarName": "ccoogoo",
+    "avatarId": "avtr_04781c71-6684-4938-a7a6-48353d1bf7fa",
+    "authorName": "シーレ／crepix",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_23bbe715-6a49-462f-968a-c47b5761dd94/1/256"
+  },
+  {
+    "avatarName": "Grilln' Catǃ",
+    "avatarId": "avtr_d5d944da-d48e-480c-8009-e2731ff5fb26",
+    "authorName": "GumboIsland",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_ac0eb587-7f6a-4004-b6d0-3c8913df0de2/4/256"
+  },
+  {
+    "avatarName": "Mururu",
+    "avatarId": "avtr_cc110e10-142d-4cce-80a6-992c4cdefa0b",
+    "authorName": "くろむ（Kuromu）",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_95d7a323-2d1d-4c31-b664-e75a2b9c66f7/3/256"
+  },
+  {
+    "avatarName": "VRCat",
+    "avatarId": "avtr_30451089-312d-4daf-b798-f57da776ad02",
+    "authorName": "Creator Support",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_7365fca4-96db-4462-85ad-0de4c80a21b1/1/256"
+  },
+  {
+    "avatarName": "Mr Noble Skeleton",
+    "avatarId": "avtr_01f1b720-5855-4d06-a332-a3b924bb277b",
+    "authorName": "MrNobleSkeleton",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_0c853d9f-fb1d-4e38-8d35-57fe94949269/1/256"
+  },
+  {
+    "avatarName": "Bean",
+    "avatarId": "avtr_3ec7cd5d-03e3-4122-8d66-aa63af11532f",
+    "authorName": "HatGremlin",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_653d1be2-40a6-491b-8120-e6c4cf0c630e/2/256"
+  },
+  {
+    "avatarName": "2A-7⁄VVVVV",
+    "avatarId": "avtr_169a0d20-777e-4ed7-bb36-e3ea4d1965b5",
+    "authorName": "NEFCO",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_76d6b8be-ca11-4492-b266-c2fb18266eeb/3/256"
+  },
+  {
+    "avatarName": "The Professional",
+    "avatarId": "avtr_047c01c7-e958-4e59-8099-86316479fd9a",
+    "authorName": "Bāph",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_1ab634a7-2cb1-4772-9baa-325080941bf8/1/256"
+  },
+  {
+    "avatarName": "Sunny 2․0",
+    "avatarId": "avtr_6812eef3-0cc1-4f7c-9d90-38bdb53a8154",
+    "authorName": "Sinrith",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_03e84860-d2b9-4600-95e0-434aee7d4f33/1/256"
+  },
+  {
+    "avatarName": "Space Kitty",
+    "avatarId": "avtr_d4706a70-1be0-4233-af3a-00dc90c791fd",
+    "authorName": "MonAmiral",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_8239df48-4260-44ba-9a60-e50c2a825cdd/1/256"
+  },
+  {
+    "avatarName": "VRRat",
+    "avatarId": "avtr_26187637-0c30-4a09-86e1-bc928c07309e",
+    "authorName": "Creator Support",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_9849762e-8080-434d-b598-ce6f7d76b3d1/1/256"
+  },
+  {
+    "avatarName": "Neri",
+    "avatarId": "avtr_6f828714-36e9-414b-bc88-dbce3a8f953f",
+    "authorName": "Graelyth",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_cb005f94-8ea7-4421-823e-eed06d811ed8/3/256"
+  },
+  {
+    "avatarName": "SABOTAGE",
+    "avatarId": "avtr_3a698831-6120-4484-b04d-8ccb188d32bf",
+    "authorName": "［SABOTAGE］",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_588b8f67-60ee-40f4-91a0-050f5590fe57/2/256"
+  },
+  {
+    "avatarName": "Umbra",
+    "avatarId": "avtr_a2720f0d-c996-4fde-b55f-20c33f58cb16",
+    "authorName": "Zeravern",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_044e0adf-6f46-4eba-a288-e23a93ea76e3/4/256"
+  },
+  {
+    "avatarName": "Abyssal Construct",
+    "avatarId": "avtr_0690f073-c52e-4a8a-8e49-98bcf607bdaa",
+    "authorName": "Sillurgy",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_4d3cc34e-15df-4eee-9bb4-368e4937531b/2/256"
+  },
+  {
+    "avatarName": "Runa",
+    "avatarId": "avtr_3d7f1ae3-1bdd-4bae-ab6f-52bfdea26dc6",
+    "authorName": "Torinyan",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_4c58bdef-1618-4237-bee8-40ee5b6ee5d7/2/256"
+  },
+  {
+    "avatarName": "ARMS light",
+    "avatarId": "avtr_087640e2-3af3-41cf-bff5-fbec2a524f6f",
+    "authorName": "shake999",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_a3ad0c98-0225-44f9-8e27-0a805c8c832f/2/256"
+  },
+  {
+    "avatarName": "MakeAvatar Male （Anime style）",
+    "avatarId": "avtr_fbd78a46-9f94-4a39-a2fb-8f60bad72d93",
+    "authorName": "Gugenka",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_2e7d2eb2-3251-4b2e-83bc-8a1b2279d5a9/1/256"
+  },
+  {
+    "avatarName": "Freakhound",
+    "avatarId": "avtr_8fa2bf67-380a-40c1-a3d6-c782afce65bc",
+    "authorName": "Ghost Cabbit",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_d46ae3c9-5b4a-4a1f-ab5e-871e1de9cadc/1/256"
+  },
+  {
+    "avatarName": "Burger Cat",
+    "avatarId": "avtr_7ff13960-dd4a-418b-bb03-9704545ff248",
+    "authorName": "ironicsoap",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_bde21eab-e56f-48dc-b54b-9500e6c545e9/2/256"
+  },
+  {
+    "avatarName": "チセ -chise-",
+    "avatarId": "avtr_1fd00093-3161-46a3-9683-95e39a9c42a6",
+    "authorName": "TKSP（タクスペ）",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_d842876f-fc51-4b52-af11-906dc9f6a697/2/256"
+  },
+  {
+    "avatarName": "Misfortune Pawn",
+    "avatarId": "avtr_c91f4d9e-07b6-4b81-b7e7-8b94075c33f0",
+    "authorName": "Jar",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_3ad193cb-91e4-4e92-b9a2-9b9b87273ea3/1/256"
+  },
+  {
+    "avatarName": "Jimothy",
+    "avatarId": "avtr_8ad1b751-af94-4f8f-bada-7a1bedb69cec",
+    "authorName": "VRChat",
+    "imgUrl": "https://api.vrchat.cloud/api/1/image/file_89b93850-61fc-4cbe-a178-710f8b44dac4/3/256"
+  }
+]
