@@ -13,6 +13,8 @@ A simple Windows application for managing your **VRChat avatars**, including fal
 * Switch outfits without navigating through your avatar's menus every time
 * View your avatar's OSC parameters and their current values
 
+![Preset Manager](screenshots/preset-manager.png)
+
 ### Fallback Avatar Manager
 
 * Change your VRChat fallback avatar
@@ -21,6 +23,8 @@ A simple Windows application for managing your **VRChat avatars**, including fal
 * See avatar names and authors
 * Simple interface
 * No VRChat password required
+
+![Fallback Avatar Manager](screenshots/fallback-manager.png)
 
 ## Requirements
 
