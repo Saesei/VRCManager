@@ -9,7 +9,7 @@ echo VRChat Fallback Manager Installer Build
 echo ========================================
 echo.
 
-if not exist "out\VRChatFallbackManager-win32-x64\VRChatFallbackManager.exe" goto package_missing
+if not exist "out\VRCManager-win32-x64\VRCManager.exe" goto package_missing
 if not exist "fallback.ico" goto icon_missing
 
 echo Running NSIS...
@@ -25,7 +25,7 @@ echo BUILD SUCCESSFUL
 echo ========================================
 echo.
 echo Installer:
-echo out\VRChatFallbackManager-0.3.0-Setup.exe
+echo out\VRCManager-0.3.0-Setup.exe
 echo.
 
 goto done

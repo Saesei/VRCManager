@@ -5,20 +5,20 @@ Unicode true
 !endif
 
 !ifndef SOURCE_DIR
-  !define SOURCE_DIR "..\out\VRChatFallbackManager-win32-x64"
+  !define SOURCE_DIR "..\out\VRCManager-win32-x64"
 !endif
 
 !define APP_NAME "VRChat Fallback Manager"
-!define APP_EXE "VRChatFallbackManager.exe"
+!define APP_EXE "VRCManager.exe"
 !define PUBLISHER "Saesei"
-!define UNINSTALL_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\VRChatFallbackManager"
+!define UNINSTALL_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\VRCManager"
 
 Name "${APP_NAME}"
 Caption "${APP_NAME} Setup"
 
-OutFile "..\out\VRChatFallbackManager-${VERSION}-Setup.exe"
+OutFile "..\out\VRCManager-${VERSION}-Setup.exe"
 
-InstallDir "$PROGRAMFILES64\VRChatFallbackManager"
+InstallDir "$PROGRAMFILES64\VRCManager"
 InstallDirRegKey HKLM "${UNINSTALL_KEY}" "InstallLocation"
 
 RequestExecutionLevel admin
