@@ -1,6 +1,6 @@
 {
   "name": "vrcmanager",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "VRChat avatar manager",
   "main": "src/main.js",
   "license": "MIT",

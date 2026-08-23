@@ -54,7 +54,7 @@ function createWindow() {
     { label: "Help", submenu: [
         { label: "GitHub", click: () => shell.openExternal("https://github.com/Saesei") },
         { type: "separator" },
-        { label: "Version 0.3.0", enabled: false }
+        { label: "Version 0.3.1", enabled: false }
     ]}
   ]));
 }
@@ -94,7 +94,7 @@ avatarDetector.onAvatarChanged((avatarId, avatarName) => {
 function headers(auth) {
   return {
     "Cookie": `auth=${auth}`,
-    "User-Agent": "VRChatFallbackManager/0.3.0",
+    "User-Agent": "VRChatFallbackManager/0.3.1",
     "Accept": "application/json"
   };
 }
@@ -116,7 +116,7 @@ function imageMime(buffer, contentType) {
 }
 
 async function fetchImage(url, auth) {
-  const h = { "User-Agent": "VRChatFallbackManager/0.3.0", "Accept": "image/*,*/*;q=0.8" };
+  const h = { "User-Agent": "VRChatFallbackManager/0.3.1", "Accept": "image/*,*/*;q=0.8" };
   if (auth) h["Cookie"] = `auth=${auth}`;
   const response = await fetch(url, { headers: h });
   if (!response.ok) throw new Error(`Image HTTP ${response.status}`);
@@ -155,7 +155,7 @@ ipcMain.handle("verify-auth", async (_e, auth) => {
 ipcMain.handle("get-avatar", async (_e, { auth, avatarId }) => {
   // auth may be empty — VRChat still returns public avatar info
   try {
-    const reqHeaders = auth ? headers(auth) : { "User-Agent": "VRChatFallbackManager/0.3.0", "Accept": "application/json" };
+    const reqHeaders = auth ? headers(auth) : { "User-Agent": "VRChatFallbackManager/0.3.1", "Accept": "application/json" };
     const { response, body } = await apiRequest(
       `${API_BASE}/avatars/${encodeURIComponent(avatarId)}`, { headers: reqHeaders }
     );

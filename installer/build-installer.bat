@@ -5,7 +5,7 @@ cd /d "%~dp0.."
 
 echo.
 echo ========================================
-echo     VRChat Manager Installer Build
+echo     VRCManager Installer Build
 echo ========================================
 echo.
 
@@ -15,7 +15,7 @@ if not exist "fallback.ico" goto icon_missing
 echo Running NSIS...
 echo.
 
-"C:\Program Files (x86)\NSIS\makensis.exe" /DVERSION=0.3.0 "installer\installer.nsi"
+"C:\Program Files (x86)\NSIS\makensis.exe" /DVERSION=0.3.1 "installer\installer.nsi"
 
 if errorlevel 1 goto build_failed
 
@@ -25,7 +25,7 @@ echo BUILD SUCCESSFUL
 echo ========================================
 echo.
 echo Installer:
-echo out\VRCManager-0.3.0-Setup.exe
+echo out\VRCManager-0.3.1-Setup.exe
 echo.
 
 goto done
