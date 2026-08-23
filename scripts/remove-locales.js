@@ -5,7 +5,7 @@ const localesPath = path.join(
   __dirname,
   "..",
   "out",
-  "VRChatFallbackManager-win32-x64",
+  "VRCManager-win32-x64",
   "locales"
 );
 
