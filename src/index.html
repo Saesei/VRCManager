@@ -4,62 +4,225 @@
   <meta charset="UTF-8">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:;">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>VRChat Fallback Manager</title>
+  <title>VRChat Manager</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<main class="container">
-  <header>
-    <h1>VRChat Fallback Manager</h1>
-    <p>Select a VRChat avatar to use as your fallback.</p>
-  </header>
 
-  <section class="card">
-    <h2>VRChat authentication</h2>
-    <label for="auth">Auth cookie</label>
-    <input id="auth" type="password" autocomplete="off" placeholder="Paste your VRChat auth cookie">
-    <p class="warning">The cookie is sensitive. This app sends it directly to VRChat and does not send it to a project server. Do not share it.</p>
-    <button id="verify">Verify account</button>
-    <span id="accountStatus" class="status"></span>
-  </section>
+<!-- ============================================================
+     LEFT SIDEBAR
+     ============================================================ -->
+<nav class="sidebar">
+  <div class="sidebar-logo">VRC Manager</div>
 
-  <section class="card">
-    <h2>Fallback avatar</h2>
-    <label for="avatarSelect">Preset avatar</label>
-    <select id="avatarSelect"></select>
+  <!-- Main nav -->
+  <div class="sidebar-nav">
+    <button class="sidebar-btn active" data-page="page-presets">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18">
+        <path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/>
+        <rect x="9" y="3" width="6" height="4" rx="1"/>
+        <line x1="9" y1="12" x2="15" y2="12"/>
+        <line x1="9" y1="16" x2="13" y2="16"/>
+      </svg>
+      <span>Preset Manager</span>
+    </button>
 
-    <div id="avatarPreview" class="avatar-preview">
-      <div class="image-wrap"><img id="avatarImage" alt=""></div>
-      <div class="avatar-info">
-        <div id="avatarName" class="avatar-name">Select an avatar</div>
-        <div id="avatarAuthor" class="avatar-author"></div>
-        <code id="selectedId">—</code>
+    <button class="sidebar-btn" data-page="page-fallback">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18">
+        <circle cx="12" cy="8" r="4"/>
+        <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+      </svg>
+      <span>Fallback Avatar</span>
+    </button>
+  </div>
+
+  <!-- Settings pinned to bottom -->
+  <div class="sidebar-bottom">
+    <button class="sidebar-btn" data-page="page-settings">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18">
+        <circle cx="12" cy="12" r="3"/>
+        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+      </svg>
+      <span>Settings</span>
+    </button>
+  </div>
+</nav>
+
+<!-- ============================================================
+     CONTENT AREA
+     ============================================================ -->
+<div class="content">
+
+  <!-- ====================================================
+       PAGE: PRESET MANAGER (default)
+       ==================================================== -->
+  <div class="page active" id="page-presets">
+
+    <!-- Avatar bar -->
+    <div class="pm-avatar-bar">
+      <div class="osc-dot" id="oscDot"></div>
+      <div class="avatar-bar-info">
+        <div class="avatar-title" id="pmAvatarName">No Avatar Detected</div>
+        <div class="avatar-sub"  id="pmAvatarId">—</div>
       </div>
+      <button id="btnDetectAvatar">↻ Re-detect</button>
     </div>
 
-    <div class="or">or</div>
-    <label for="customId">Custom avatar ID</label>
-    <input id="customId" placeholder="avtr_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx">
+    <!-- Two-column layout -->
+    <div class="pm-layout">
 
-    <button id="selectFallback" class="primary">Select as fallback</button>
-    <button id="checkCurrent">Check current fallback</button>
-    <div id="result" class="result"></div>
-  </section>
-
-  <section class="card">
-    <h2>Current fallback</h2>
-    <div id="currentFallback" class="current">
-      <div class="image-wrap"><img id="currentImage" alt=""></div>
-      <div class="avatar-info">
-        <div id="currentName" class="avatar-name">Not checked yet</div>
-        <div id="currentAuthor" class="avatar-author"></div>
-        <code id="currentId">—</code>
+      <!-- LEFT: preset list -->
+      <div class="pm-left">
+        <div class="pm-panel">
+          <div class="pm-panel-header">Outfit Presets</div>
+          <div class="pm-search">
+            <input id="presetSearch" placeholder="Search presets…">
+          </div>
+          <div class="pm-list" id="presetList">
+            <div class="pm-empty">No presets saved yet.<br>Interact with your avatar<br>in VRChat, then save.</div>
+          </div>
+          <div class="pm-actions">
+            <button class="success-btn" id="btnApplyPreset">▶ Apply Outfit</button>
+            <div class="pm-btn-row">
+              <button id="btnSavePreset">Save Current</button>
+              <button id="btnRenamePreset">Rename</button>
+            </div>
+            <div class="pm-btn-row">
+              <button class="danger-btn" id="btnDeletePreset">Delete</button>
+              <button id="btnImportPreset">Import</button>
+            </div>
+            <button id="btnExportPreset">Export Selected</button>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
 
-  <footer><span>VRChat Fallback Manager</span><span>v0.3.0</span></footer>
-</main>
+      <!-- RIGHT: live parameters -->
+      <div class="pm-right">
+        <div class="pm-panel">
+          <div class="pm-panel-header">Live Avatar Parameters</div>
+          <div class="pm-search">
+            <input id="paramSearch" placeholder="Filter parameters…">
+          </div>
+          <div class="param-list" id="paramList">
+            <div class="pm-empty" id="paramEmpty">Listening for parameter changes…<br>Load an avatar in VRChat to begin.</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div><!-- #page-presets -->
+
+
+  <!-- ====================================================
+       PAGE: FALLBACK AVATAR MANAGER
+       ==================================================== -->
+  <div class="page" id="page-fallback">
+    <header>
+      <h1>Fallback Avatar</h1>
+      <p>Select a VRChat avatar to use as your fallback.</p>
+    </header>
+
+    <section class="card">
+      <h2>VRChat authentication</h2>
+      <label for="auth">Auth cookie</label>
+      <input id="auth" type="password" autocomplete="off" placeholder="Paste your VRChat auth cookie">
+      <p class="warning">The cookie is sensitive. This app sends it directly to VRChat and does not send it to a project server. Do not share it.</p>
+      <button id="verify">Verify account</button>
+      <span id="accountStatus" class="status"></span>
+    </section>
+
+    <section class="card">
+      <h2>Select fallback avatar</h2>
+      <label for="avatarSelect">Preset avatar</label>
+      <select id="avatarSelect"></select>
+
+      <div id="avatarPreview" class="avatar-preview">
+        <div class="image-wrap"><img id="avatarImage" alt=""></div>
+        <div class="avatar-info">
+          <div id="avatarName" class="avatar-name">Select an avatar</div>
+          <div id="avatarAuthor" class="avatar-author"></div>
+          <code id="selectedId">—</code>
+        </div>
+      </div>
+
+      <div class="or">or</div>
+      <label for="customId">Custom avatar ID</label>
+      <input id="customId" placeholder="avtr_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx">
+
+      <button id="selectFallback" class="primary">Set as fallback</button>
+      <button id="checkCurrent">Check current fallback</button>
+      <div id="result" class="result"></div>
+    </section>
+
+    <section class="card">
+      <h2>Current fallback</h2>
+      <div id="currentFallback" class="current">
+        <div class="image-wrap"><img id="currentImage" alt=""></div>
+        <div class="avatar-info">
+          <div id="currentName"   class="avatar-name">Not checked yet</div>
+          <div id="currentAuthor" class="avatar-author"></div>
+          <code id="currentId">—</code>
+        </div>
+      </div>
+    </section>
+
+    <footer><span>VRChat Fallback Manager</span><span>v0.3.0</span></footer>
+  </div><!-- #page-fallback -->
+
+
+  <!-- ====================================================
+       PAGE: SETTINGS
+       ==================================================== -->
+  <div class="page" id="page-settings">
+    <header>
+      <h1>Settings</h1>
+      <p>Configure OSC ports and application behaviour.</p>
+    </header>
+
+    <section class="card">
+      <h2>OSC Configuration</h2>
+      <label for="settingListenPort">VRChat → App (listen port)</label>
+      <input id="settingListenPort" type="number" value="9001" min="1024" max="65535">
+      <p class="warning">VRChat sends OSC to this port. Default: 9001. Restart the app after changing.</p>
+
+      <label for="settingSendPort">App → VRChat (send port)</label>
+      <input id="settingSendPort" type="number" value="9000" min="1024" max="65535">
+      <p class="warning">VRChat listens on this port. Default: 9000.</p>
+
+      <button id="btnSaveSettings" class="primary">Save &amp; Restart OSC</button>
+      <span id="settingsStatus" class="status"></span>
+    </section>
+
+    <section class="card">
+      <h2>Preset Storage</h2>
+      <p>Presets are stored in your application data folder:</p>
+      <code id="presetStoragePath">Loading…</code>
+      <button id="btnOpenPresetFolder">Open folder</button>
+    </section>
+
+    <section class="card">
+      <h2>About</h2>
+      <p style="margin-bottom:8px">VRChat Fallback Manager + Preset Manager</p>
+      <p>Version 0.3.0 &nbsp;·&nbsp; MIT License &nbsp;·&nbsp; <span style="color:#5b5fe8;cursor:pointer" id="linkGithub">GitHub</span></p>
+    </section>
+  </div><!-- #page-settings -->
+
+</div><!-- .content -->
+
+<!-- ============================================================
+     INLINE DIALOG
+     ============================================================ -->
+<div class="dialog-overlay" id="dialogOverlay">
+  <div class="dialog-box">
+    <h3 id="dialogTitle">Enter name</h3>
+    <input id="dialogInput" type="text" placeholder="">
+    <div class="dialog-btns">
+      <button id="dialogCancel">Cancel</button>
+      <button class="primary" id="dialogConfirm">OK</button>
+    </div>
+  </div>
+</div>
+
 <script src="renderer.js"></script>
 </body>
 </html>
