@@ -1,8 +1,8 @@
 module.exports = {
   packagerConfig: {
     asar: true,
-    name: "VRChatFallbackManager",
-    executableName: "VRChatFallbackManager",
+    name: "VRCManager",
+    executableName: "VRCManager",
     icon: "./fallback"
   },
 

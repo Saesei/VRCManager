@@ -1,7 +1,7 @@
 {
-  "name": "vrchat-fallback-manager",
+  "name": "vrcmanager",
   "version": "0.3.0",
-  "description": "VRChat fallback avatar manager",
+  "description": "VRChat avatar manager",
   "main": "src/main.js",
   "license": "MIT",
   "scripts": {

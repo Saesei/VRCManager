@@ -5,7 +5,7 @@ cd /d "%~dp0.."
 
 echo.
 echo ========================================
-echo VRChat Fallback Manager Installer Build
+echo     VRChat Manager Installer Build
 echo ========================================
 echo.
 
