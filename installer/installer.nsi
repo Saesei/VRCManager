@@ -8,7 +8,7 @@ Unicode true
   !define SOURCE_DIR "..\out\VRCManager-win32-x64"
 !endif
 
-!define APP_NAME "VRChat Fallback Manager"
+!define APP_NAME "VRChat Manager"
 !define APP_EXE "VRCManager.exe"
 !define PUBLISHER "Saesei"
 !define UNINSTALL_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\VRCManager"

@@ -30,24 +30,41 @@ function detectAvatarFromLog() {
 
     const logs = fs.readdirSync(logDir)
       .filter(f => f.startsWith("output_log_") && f.endsWith(".txt"))
-      .map(f => ({ file: path.join(logDir, f), mtime: fs.statSync(path.join(logDir, f)).mtimeMs }))
+      .map(f => {
+        const file = path.join(logDir, f);
+        const stat = fs.statSync(file);
+
+        return {
+          file,
+          name: f,
+          mtime: stat.mtimeMs
+        };
+      })
       .sort((a, b) => b.mtime - a.mtime)
       .slice(0, 3);
 
-    for (const { file } of logs) {
-      try {
-        const lines = fs.readFileSync(file, "utf8").split("\n");
-        for (let i = lines.length - 1; i >= 0; i--) {
-          if (lines[i].includes("avtr_")) {
-            const m = AVATAR_ID_RE.exec(lines[i]);
-            if (m) return m[0];
-          }
+    for (const { file, name } of logs) {
+      const lines = fs.readFileSync(file, "utf8").split(/\r?\n/);
+
+      // Search from the bottom = newest request first
+      for (let i = lines.length - 1; i >= 0; i--) {
+        const match = lines[i].match(
+          /\[API\].*Sending Put request to https:\/\/api\.vrchat\.cloud\/api\/1\/avatars\/(avtr_[a-f0-9-]{36})\/select/i
+        );
+
+        if (match) {
+          console.log(`[AvatarDetector] Latest avatar select request:`);
+          console.log(`[AvatarDetector] ${lines[i]}`);
+          console.log(`[AvatarDetector] Avatar ID: ${match[1]}`);
+
+          return match[1];
         }
-      } catch {}
+      }
     }
   } catch (err) {
     console.error("[AvatarDetector] Log scan error:", err.message);
   }
+
   return null;
 }
 
