@@ -69,7 +69,9 @@ auth
 
 **Never share this value with anyone. Treat it like your password.**
 
-### Chrome
+### Chromium Browsers
+
+For **Chrome, Edge, Brave, Opera, Vivaldi, and Chromium-based browsers**:
 
 1. Open [VRChat](https://vrchat.com/) and log in.
 2. Press `F12`.
@@ -79,16 +81,6 @@ auth
 6. Find the cookie named `auth`.
 7. Copy the **Value**.
 
-### Edge
-
-1. Open [VRChat](https://vrchat.com/) and log in.
-2. Press `F12`.
-3. Open **Application**.
-4. Go to **Storage → Cookies**.
-5. Select `https://vrchat.com`.
-6. Find `auth`.
-7. Copy the **Value**.
-
 ### Firefox
 
 1. Open [VRChat](https://vrchat.com/) and log in.
@@ -96,34 +88,8 @@ auth
 3. Open **Storage**.
 4. Go to **Cookies**.
 5. Select `https://vrchat.com`.
-6. Find `auth`.
+6. Find the cookie named `auth`.
 7. Copy the **Value**.
-
-### Brave
-
-Brave uses the same developer tools as Chrome:
-
-1. Open [VRChat](https://vrchat.com/) and log in.
-2. Press `F12`.
-3. Open **Application**.
-4. Go to **Storage → Cookies**.
-5. Select `https://vrchat.com`.
-6. Find `auth`.
-7. Copy the **Value**.
-
-### Other Chromium Browsers
-
-For browsers such as Opera, Vivaldi, and Chromium:
-
-```text
-F12
-→ Application
-→ Storage
-→ Cookies
-→ vrchat.com
-→ auth
-→ Value
-```
 
 ---
 
